@@ -1,0 +1,53 @@
+% Chaptre 1
+
+\chapter{Approche suivie et solution proposée} % Main chapter title
+
+\label{Chaptre4} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+Dans cette section nous ferons une présentation détaillée des solutions que nous avions proposées par rapport à nos missions.
+
+%----------------------------------------------------------------------------------------
+
+% Define some commands to keep the formatting separated from the content 
+%\newcommand{\keyword}[1]{\textbf{#1}}
+%\newcommand{\tabhead}[1]{\textbf{#1}}
+%\newcommand{\code}[1]{\texttt{#1}}
+%\newcommand{\file}[1]{\texttt{\bfseries#1}}
+%\newcommand{\option}[1]{\texttt{\itshape#1}}
+%----------------------------------------------------------------------------------------
+
+\section{Méthodologie de travail: Scrum avec Agile}
+\textbf{A compléter}
+\section{Les différentes missions et solutions}
+\subsection{Mission 1}
+Etude de faisabilité sur le déploiement d’une application Front-End dans un environnement AWS.
+L’application frontend(web app flutter) d’Assurly est hébergée sur Firebase, tandis que l’essentiel de
+ses ressources se trouve dans le cloud d’Amazon. C’est dans le but d’unifier nos environnements cloud que
+cette mission m’avait été confiée.
+Pour cela j’avais exploré deux possibilités:
+\subsubsection{Solutions}
+\subparagraph{L’utilisation de S3 comme repos de déploiement}
+La solution ici consiste à créer un repos S3 de le rendre public, afin de pouvoir accepter tous les trafics.
+De configurer Code Pipeline pour les besoins de CI/CD avec Github, De configurer Cloudfront pour la
+gestion des trafic et Route 54 pour le routage.
+\subparagraph{L’utilisation d’Amplify comme comme repos de déploiement}
+Cette solution consiste à utiliser le service d’hébergement qu’offre Amplify et son système de CI/CD en
+l’associant à système de versioning: Github. CloudFront était utilisé pour la gestion du trafic et Route 54
+pour le routage.
+NB: C’est la solution 2(l’utilisation d’Amplify comme comme repos de déploiement) qui avait été
+retenue. Celle-ci est simple et plus adaptée.
+\subsection{Mission 2}
+Le déploiement et l’intégration d’un service web (Reflex) dans un environnement AWS. La souscription
+au produit d’assurance Assurly est subdivisée en trois parcours: P1, P2, et P3. Un utilisateur ne peut se
+retrouver dans un seul parcours en fonction des données fournies. Si un utilisateur se retrouve dans le
+parcours P3 un questionnaire plus complexe est nécessaire, c’est à cet instant qu’intervient Reflex.
+\subsubsection{Solutions}
+Reflex est composé de trois modules de base: CEF pour frontend, DOCS pour la gestion des rapports et
+RAS qui constitue le cœur du système Reflex.
+La procédure de déploiement consiste mettre à jour le repos Github qui contient les fichiers nécessaires à la
+construction de notre container, à se connecter à notre EC2, à puller les fichiers du repos Github depuis un
+répertoire de notre EC2 puis à construire et déployer notre container avec la commande docker-compose
+\subsection{Mission 3}
+Sécurisation d’une API Rest développée avec la technologie Serveless d’AWS (Lambada + python)
+\subsection{Mission 4}
+Le déploiement d’un système de web scraping dans un environnement AWS
