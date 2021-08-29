@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.8.28)  29 AUG 2021 01:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.8.28)  29 AUG 2021 09:47
 entering extended mode
 **./main.tex
 (main.tex
@@ -955,13 +955,13 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 <Figures/assurly.png, id=247, 384.43625pt x 131.49126pt>
 File: Figures/assurly.png Graphic file (type png)
 <use Figures/assurly.png>
-Package pdftex.def Info: Figures/assurly.png  used on input line 112.
-(pdftex.def)             Requested size: 192.21765pt x 65.74545pt.
+Package pdftex.def Info: Figures/assurly.png  used on input line 113.
+(pdftex.def)             Requested size: 71.13188pt x 24.3295pt.
 <Figures/logouvsq.png, id=248, 696.6025pt x 337.26pt>
 File: Figures/logouvsq.png Graphic file (type png)
 <use Figures/logouvsq.png>
 Package pdftex.def Info: Figures/logouvsq.png  used on input line 118.
-(pdftex.def)             Requested size: 348.3004pt x 168.62958pt.
+(pdftex.def)             Requested size: 71.13188pt x 34.43814pt.
 [1
 
 
@@ -1202,16 +1202,16 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 263D449C84E065859E6D0F6B62C26EF9;11091.
+(rerunfilecheck)             Checksum: 303B0370218F56260D3DED156EF1A46B;11091.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27380 strings out of 479300
- 562897 string characters out of 2863761
+ 27375 strings out of 479300
+ 562809 string characters out of 2863761
  1104429 words of memory out of 3000000
- 44318 multiletter control sequences out of 15000+200000
+ 44315 multiletter control sequences out of 15000+200000
  454262 words of font info for 111 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,20n,102p,1820b,2554s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1226,9 +1226,9 @@ ram Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on main.pdf (45 pages, 289854 bytes).
+Output written on main.pdf (45 pages, 289633 bytes).
 PDF statistics:
- 619 PDF objects out of 1000 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
+ 617 PDF objects out of 1000 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
  499 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -107,17 +107,17 @@ headsepline, % Uncomment to get a line under the header
 %---------------------------------
 %. Logos
 %--------------------------------
-\begin{flushleft} \large
-\begin{figure}[th]
-\includegraphics[width=50mm,scale=0.5]{Figures/assurly}
-\end{figure}
-\end{flushleft} 
-
-\begin{flushright}\large
-\begin{figure}[th]
-\includegraphics[width=50mm,scale=0.5]{Figures/logouvsq}
-\end{figure}
-\end{flushright}
+  \begin{center}
+  \setlength{\tabcolsep}{0pt}
+  \begin{tabular}{>{\raggedleft}m{2.5cm}>{\centering}m{\dimexpr\textwidth - 5cm\relax}>{\raggedright}m{2.5cm}}
+  \includegraphics[width=\linewidth]{Figures/assurly}%
+  &%
+  %\textbf{\large INSTITUTO POLITECNICO NACIONAL} \\[5pt]%
+  %\textbf{\large ESCUELA SUPERIOR DE COMPUTO}%
+  &%
+  \includegraphics[width=\linewidth]{Figures/logouvsq} %
+  \end{tabular}
+  \end{center}
 
 \vspace*{.06\textheight}
 {\scshape\LARGE \univname\par}\vspace{1.5cm} % University name
